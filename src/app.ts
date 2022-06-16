@@ -1,3 +1,4 @@
+import { Home } from './home/home';
 export class App {
-  public message = 'Hello World!';
+  message = new Home().message;
 }
